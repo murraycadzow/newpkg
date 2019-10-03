@@ -16,5 +16,5 @@ filtered mtcars
 Shows a dependency and pipe!
 }
 \examples{
-dependent_function(x = mtcars, n_cyl = 4)
+dependent_function(n_cyl = 4)
 }

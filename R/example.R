@@ -17,7 +17,7 @@ example_function <- function(){
 #' @return  x * n
 #' @export
 #'
-#' @examples give_me_y(x = 5)
+#' @examples give_me_y(x = 5, n = 3)
 give_me_y <- function(x, n) {
   y <- x * n
   y
@@ -25,12 +25,12 @@ give_me_y <- function(x, n) {
 
 #' Bigger than 10
 #' Tests if a number is bigger than 10.
-#' @param n
+#' @param n a number
 #'
 #' @return logical
 #' @export
 #'
-#' @examples
+#' @examples bigger_than_10(n = 11)
 bigger_than_10 <- function(n){
   if( n > 10){
     return(TRUE)
@@ -46,7 +46,7 @@ bigger_than_10 <- function(n){
 #' @return filtered mtcars
 #' @export
 #'
-#' @examples dependent_function(x = mtcars, n_cyl = 4)
+#' @examples dependent_function(n_cyl = 4)
 dependent_function <- function(n_cyl) {
-  mtcars %>% dplyr::filter(cyl == n_cyl)
+  datasets::mtcars %>% dplyr::filter(.data[["cyl"]] == n_cyl)
 }

@@ -16,6 +16,9 @@ LazyData: true
 RoxygenNote: 6.1.1
 Imports: 
     dplyr,
-    magrittr
+    magrittr,
+    rlang (>= 0.1.2),
+    datasets
 Suggests: 
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    roxygen2

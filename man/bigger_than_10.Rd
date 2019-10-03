@@ -8,7 +8,7 @@ Tests if a number is bigger than 10.}
 bigger_than_10(n)
 }
 \arguments{
-\item{n}{}
+\item{n}{a number}
 }
 \value{
 logical
@@ -16,4 +16,7 @@ logical
 \description{
 Bigger than 10
 Tests if a number is bigger than 10.
+}
+\examples{
+bigger_than_10(n = 11)
 }

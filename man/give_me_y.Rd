@@ -18,5 +18,5 @@ x * n
 Give me the value of Y
 }
 \examples{
-give_me_y(x = 5)
+give_me_y(x = 5, n = 3)
 }
