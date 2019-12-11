@@ -5,7 +5,7 @@
 [![R build status](https://github.com/murraycadzow/newpkg/workflows/R-CMD-check/badge.svg)](https://github.com/murraycadzow/newpkg)
 <!-- badges: end -->
 
-The goal of newpkg is to ...
+The goal of newpkg is to test the git actions
 
 ## Installation
 
