@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/murraycadzow/newpkg.svg?branch=master)](https://travis-ci.org/murraycadzow/newpkg)
+[![R build status](https://github.com/murraycadzow/newpkg/workflows/R-CMD-check/badge.svg)](https://github.com/murraycadzow/newpkg)
 <!-- badges: end -->
 
 The goal of newpkg is to ...
