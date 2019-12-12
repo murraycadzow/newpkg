@@ -3,3 +3,7 @@
 ^LICENSE\.md$
 ^\.travis\.yml$
 ^\.github/workflows/R-CMD-check\.yaml$
+^\.github/workflows/pkgdown\.yaml$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
